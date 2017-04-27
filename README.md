@@ -1,6 +1,6 @@
 # npmtest-webpack-svgstore-plugin
 
-#### test coverage for  [webpack-svgstore-plugin (v4.0.0)](https://github.com/mrsum/webpack-svgstore-plugin#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-webpack-svgstore-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webpack-svgstore-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webpack-svgstore-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-webpack-svgstore-plugin)
+#### basic test coverage for  [webpack-svgstore-plugin (v4.0.0)](https://github.com/mrsum/webpack-svgstore-plugin#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-webpack-svgstore-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webpack-svgstore-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webpack-svgstore-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-webpack-svgstore-plugin)
 
 #### Webpack svgstore plugin
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-webpack-svgstore-plugin/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-webpack-svgstore-plugin/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-webpack-svgstore-plugin/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-webpack-svgstore-plugin/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-webpack-svgstore-plugin/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-webpack-svgstore-plugin/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-webpack-svgstore-plugin/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-webpack-svgstore-plugin/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-webpack-svgstore-plugin/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-webpack-svgstore-plugin/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-webpack-svgstore-plugin/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-webpack-svgstore-plugin/build/coverage.html/index.html)
 
@@ -96,7 +96,8 @@
         "code:report": "CODECLIMATE_REPO_TOKEN=29b2c943849c33562af12b70563d86e95c073e04c7510e9da5d9711cf3233b17 ./node_modules/.bin/codeclimate-test-reporter < coverage/lcov.info",
         "test": "NODE_ENV=platform ./node_modules/.bin/_mocha ./src/__tests__/index.js"
     },
-    "version": "4.0.0"
+    "version": "4.0.0",
+    "bin": {}
 }
 ```
 
